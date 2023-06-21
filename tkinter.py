@@ -31,7 +31,7 @@ ctext.pack()
 c = tk.Entry(win)
 c.pack()
 
-button = tk.Button(win, text="hotovko!", command=executor)
+button = tk.Button(win, text="vysledok", command=executor)
 button.pack()
 
 result_label = tk.Label(win, text="")
